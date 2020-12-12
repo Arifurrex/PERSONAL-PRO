@@ -1,0 +1,19 @@
+// 1 - HELPERS
+@import '1-helpers/root';
+@import '1-helpers/mixins';
+
+// 2 - BASICS
+@import '2-basics/reset';
+@import '2-basics/btn';
+@import '2-basics/social-icon';
+
+// 3 - LAYOUT
+@import '3-layout/1header';
+@import '3-layout/2hero';
+@import '3-layout/21about';
+@import '3-layout/3skillsSection';
+@import '3-layout/4statsSection';
+@import '3-layout/5contactSection';
+@import '3-layout/6portfolioSectione';
+@import '3-layout/7copyrightSection';
+// 4 - PAGES

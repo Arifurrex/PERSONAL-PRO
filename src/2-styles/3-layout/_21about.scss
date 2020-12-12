@@ -1,0 +1,40 @@
+.aboutsection {
+  padding-top: 0;
+  padding-bottom: 4em;
+  .about__container {
+    width: 100%;
+    .about__row {
+      .about-leftside {
+        .aboutImage {
+          width: 100%;
+          background-color: var(--clr-radish);
+        }
+      }
+      .about-rightside {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2em;
+        h3 {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+}
+@media all and (min-width: 1024px) {
+  .aboutsection {
+    padding-top: 0;
+    padding-bottom: 0;
+    .about__container {
+      .about__row {
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        .about-rightside {
+          max-width: 700px;
+        }
+      }
+    }
+  }
+}

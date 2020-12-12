@@ -1,0 +1,61 @@
+/* <!-- ================================ -->
+<!-- skillsSection start from here  -->
+<!-- ================================ --> */
+.skillsSection,
+.contactSection {
+  background-color: var(--clr-radish, #e74c3c);
+  color: #fff;
+  padding: 4em 0;
+  .col-md-12 {
+    p {
+      margin-top: 1em;
+    }
+  }
+  .owl-carousel {
+    margin-top: 2em;
+    .skill {
+      text-align: center;
+      margin-left: 10px;
+      .chart {
+        color: var(--clr-ligh);
+        .percent {
+          color: var(--clr-ligh);
+        }
+      }
+      h4 {
+        margin-top: 1em;
+      }
+      p {
+        margin-top: 1em;
+      }
+    }
+  }
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+  color: #000;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.chart .percent:after {
+  content: '%';
+}
+/* <!-- ================================ -->
+<!-- skillsSection end from here  -->
+<!-- ================================ --> */
