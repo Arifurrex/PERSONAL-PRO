@@ -17,7 +17,7 @@
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
   --clr-ligh: #f1f1f1;
-  --clr-radish: #222831;
+  --clr-radish: #cdac81;
   --clr-lessradish: #ffe5e0;
   --clr-dark: #1d1d1f;
   --clr-hash: #68686a;
@@ -521,7 +521,7 @@ body {
 }
 
 .aboutsection .about__container .about__row .about-leftside {
-  background-color: #2c3e50;
+  background-color: var(--clr-radish);
   position: relative;
 }
 
