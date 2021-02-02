@@ -1050,7 +1050,7 @@ body {
 <!-- copyrightSection start from here  -->
 <!-- ================================ --> */
 .copyrightSection {
-  background-color: #000;
+  background-color: var(--clr-radish);
   color: #fff;
   padding: 30px 5px;
 }
