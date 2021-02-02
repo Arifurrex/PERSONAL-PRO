@@ -5,22 +5,23 @@
   padding: 4em 0;
 }
 .filter a {
-  color: #bdc3c7;
-  border: 1px solid #bdc3c7;
-  padding: 10px 18px;
+  color: var(--clr-bluis);
+  border: 1px solid var(--clr-bluis);
+  padding: 0.75em 2em;
   display: block;
   text-decoration: none;
 }
 
 .filter li {
   display: inline-block;
-  padding: 5px;
+  padding: 1em;
 }
 
 .filter .current {
   background-color: var(--clr-radish);
   border-color: var(--clr-radish);
-  color: #fff;
+  color: var(--clr-bluis);
+  font-weight: var(--fw-bold);
 }
 
 .filter {
@@ -28,10 +29,11 @@
   width: 100%;
 }
 
-.section .heading {
+.heading {
+  color: var(--clr-radish);
   text-align: center;
-  padding-bottom: 40px;
-  width: 100%;
+  padding-bottom: 1em;
+  // width: 100%;
 }
 
 .items li {

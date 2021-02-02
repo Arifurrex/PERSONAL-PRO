@@ -17,8 +17,11 @@
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
   --clr-ligh: #f1f1f1;
+  --clr-bluis: #00303f;
   --clr-radish: #cdac81;
+  --clr-rad: #a9294f;
   --clr-lessradish: #ffe5e0;
+  --clr-aquaish: #cae4db;
   --clr-dark: #1d1d1f;
   --clr-hash: #68686a;
   --clr-hashligh: #3c3c3e;
@@ -410,7 +413,7 @@ body {
 <!-- navigationSectione start here  -->
 <!-- ================================ --> */
 #navigation {
-  background-color: var(--clr-radish, #e74c3c);
+  background-color: var(--clr-rad, #e74c3c);
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
@@ -442,6 +445,10 @@ body {
 /* <!-- ================================ -->
 <!-- navigationSectione end here  -->
 <!-- ================================ --> */
+.main {
+  color: var(--clr-radish);
+}
+
 /* <!-- ================================ -->
 <!-- slides start from here  -->
 <!-- ================================ --> */
@@ -514,6 +521,7 @@ body {
   padding-top: 0;
   padding-bottom: 4em;
   overflow: hidden;
+  background-color: var(--clr-radish);
 }
 
 .aboutsection .about__container {
@@ -712,6 +720,7 @@ body {
 
 .aboutsection .about__container .about__row .about-leftside .aboutImage {
   width: 100%;
+  background-color: var(--clr-radish);
 }
 
 .aboutsection .about__container .about__row .about-rightside {
@@ -745,8 +754,8 @@ body {
 <!-- ================================ --> */
 .skillsSection,
 .contactSection {
-  background-color: var(--clr-radish, #e74c3c);
-  color: #fff;
+  background-color: var(--clr-aquaish);
+  color: var(--clr-bluis);
   padding: 4em 0;
 }
 
@@ -764,16 +773,18 @@ body {
 .contactSection .owl-carousel .skill {
   text-align: center;
   margin-left: 10px;
+  color: var(--clr-bluis);
 }
 
 .skillsSection .owl-carousel .skill .chart,
 .contactSection .owl-carousel .skill .chart {
-  color: var(--clr-ligh);
+  color: var(--clr-bluis);
 }
 
 .skillsSection .owl-carousel .skill .chart .percent,
 .contactSection .owl-carousel .skill .chart .percent {
-  color: var(--clr-ligh);
+  color: var(--clr-bluis);
+  color: #00303f;
 }
 
 .skillsSection .owl-carousel .skill h4,
@@ -801,7 +812,7 @@ body {
 }
 
 .chart .percent {
-  color: #000;
+  color: var(--clr-bluis);
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
@@ -819,6 +830,8 @@ body {
 <!-- ================================ --> */
 .statsSection {
   padding: 4em 0;
+  background: var(--clr-radish);
+  color: var(--clr-bluis);
 }
 
 .squareItem {
@@ -830,7 +843,7 @@ body {
   position: relative;
   padding: 50px 15px 35px;
   text-align: center;
-  border: 2px solid #444;
+  border: 2px solid var(--clr-bluis);
   border-top: none;
 }
 
@@ -840,7 +853,7 @@ body {
   position: absolute;
   top: 0px;
   width: 30%;
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid var(--clr-bluis);
 }
 
 .squareInnerContainer:before {
@@ -855,7 +868,7 @@ body {
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #e74c3c;
+  color: var(--clr-rad);
 }
 
 .squareContent h3 {
@@ -872,7 +885,7 @@ body {
   height: 60px;
   font-size: 45px;
   margin-left: -20%;
-  color: #444;
+  color: var(--clr-bluis);
 }
 
 /* <!-- ================================ -->
@@ -886,18 +899,22 @@ body {
 }
 
 .contactButton {
-  color: #fff;
+  background-color: var(--clr-bluis);
+  color: var(--clr-aquaish);
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid #fff;
+  border: 1px solid var(--clr-bluis);
   border-radius: 2px;
+  font-weight: var(--fw-bolder);
+  transition: 0.7s;
 }
 
 .contactButton:hover {
   text-decoration: none;
   color: #e74c3c;
   background-color: #fff;
+  transition: 0.7s;
 }
 
 /* <!-- ================================ -->
@@ -911,22 +928,23 @@ body {
 }
 
 .filter a {
-  color: #bdc3c7;
-  border: 1px solid #bdc3c7;
-  padding: 10px 18px;
+  color: var(--clr-bluis);
+  border: 1px solid var(--clr-bluis);
+  padding: 0.75em 2em;
   display: block;
   text-decoration: none;
 }
 
 .filter li {
   display: inline-block;
-  padding: 5px;
+  padding: 1em;
 }
 
 .filter .current {
   background-color: var(--clr-radish);
   border-color: var(--clr-radish);
-  color: #fff;
+  color: var(--clr-bluis);
+  font-weight: var(--fw-bold);
 }
 
 .filter {
@@ -934,10 +952,10 @@ body {
   width: 100%;
 }
 
-.section .heading {
+.heading {
+  color: var(--clr-radish);
   text-align: center;
-  padding-bottom: 40px;
-  width: 100%;
+  padding-bottom: 1em;
 }
 
 .items li {
@@ -1050,7 +1068,7 @@ body {
 <!-- copyrightSection start from here  -->
 <!-- ================================ --> */
 .copyrightSection {
-  background-color: var(--clr-radish);
+  background-color: var(--clr-rad);
   color: #fff;
   padding: 30px 5px;
 }

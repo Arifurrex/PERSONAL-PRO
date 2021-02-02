@@ -3,8 +3,9 @@
 <!-- ================================ --> */
 .skillsSection,
 .contactSection {
-  background-color: var(--clr-radish, #e74c3c);
-  color: #fff;
+  // background-color: var(--clr-radish, #cae4db);
+  background-color: var(--clr-aquaish);
+  color: var(--clr-bluis);
   padding: 4em 0;
   .col-md-12 {
     p {
@@ -16,10 +17,12 @@
     .skill {
       text-align: center;
       margin-left: 10px;
+      color: var(--clr-bluis);
       .chart {
-        color: var(--clr-ligh);
+        color: var(--clr-bluis);
         .percent {
-          color: var(--clr-ligh);
+          color: var(--clr-bluis);
+          color: #00303f;
         }
       }
       h4 {
@@ -47,7 +50,7 @@
 }
 
 .chart .percent {
-  color: #000;
+  color: var(--clr-bluis);
   line-height: 152px;
   display: inline-block;
   font-size: 35px;

@@ -2,6 +2,7 @@
   padding-top: 0;
   padding-bottom: 4em;
   overflow: hidden;
+  background-color: var(--clr-radish);
   .about__container {
     width: 100%;
     .about__row {
@@ -171,7 +172,7 @@
         }
         .aboutImage {
           width: 100%;
-          // background-color: var(--clr-radish);
+          background-color: var(--clr-radish);
         }
       }
       .about-rightside {
