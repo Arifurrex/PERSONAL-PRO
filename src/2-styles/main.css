@@ -21,6 +21,7 @@
   --clr-radish: #276678;
   --clr-rad: #d3e0ea;
   --clr-lessradish: #ffe5e0;
+  --clr-veryligh: #f6f5f5;
   --clr-aquaish: #1687a7;
   --clr-dark: #1d1d1f;
   --clr-hash: #68686a;
@@ -932,6 +933,7 @@ nav .navbar-brand {
 <!-- ================================ --> */
 .portfoliosection {
   padding: 4em 0;
+  background-color: var(--clr-radish);
 }
 
 .filter a {
